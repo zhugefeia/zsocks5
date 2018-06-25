@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
 project (zsocks5)
 
-include_directories("lib")
+include_directories("lib/asio")
 
 add_definitions(-DASIO_STANDALONE)
 
